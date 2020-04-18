@@ -1,3 +1,6 @@
+import random
+import sys
+
 print ("hello world")
 print ('what is your name')
 #myName = input()
@@ -10,6 +13,7 @@ print ('what is your name')
 #print ('It is good to meet you, ' + myName)
 #print ('The length of your name is: ' + str(len(myName)))
 #print ('What is your age?')
+
 #myAge = input()
 #print('You will be ' + str(int(myAge) + 1) + ' in a year') 
 
@@ -36,5 +40,22 @@ print ('what is your name')
 #print('total: ' + str(total))
 
 
-for i in range(0, 10, -1):
-    print (str(i))
+# for i in range(0, 10, -1):
+#     print (str(i))
+
+#####################
+#Starting section 3 #
+#####################
+
+#print(random.randint(1, 10))
+
+
+
+
+def hello(text):
+    print("test", end='')
+    print('howdy! ' + text)
+    print ('world')
+    #hello() RECURSION HAR HAR HAR
+
+hello("test")
