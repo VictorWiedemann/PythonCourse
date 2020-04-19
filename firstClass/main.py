@@ -100,32 +100,72 @@ import sys
 
 
 
-print("Hello. What is your name?")
-nameText = input()
-print("well, " + nameText + ", I am thinking of a number between 1 and 20")
-randValue = random.randint(1, 20)
-isGuessRight = False
-NumGuesses = 0
-while(isGuessRight == False):
-    print("take a guess")
-    try:
-        guessedNum = int(input())
-    except:
-        print("please input a real number")
-        continue
+# print("Hello. What is your name?")
+# nameText = input()
+# print("well, " + nameText + ", I am thinking of a number between 1 and 20")
+# randValue = random.randint(1, 20)
+# NumGuesses = 0
+# while(True):
+#     print("take a guess")
+#     try:
+#         guessedNum = int(input())
+#     except:
+#         print("please input a real number")
+#         continue
 
-    NumGuesses += 1
-    if(guessedNum == randValue):
-        print("good job, " + nameText + ", You guessed my number in " + str(NumGuesses) + " guesses!")
-        break
-    elif(NumGuesses == 7):
-        print("Nope. The number I was thinking of was " + str(NumGuesses) + ".")
-    elif(guessedNum < randValue):
-        print("your guessed number is too low")
-    elif(guessedNum > randValue):
-        print("your guessed number is too high")
-    else:
-        print("this shouldn't happen")
+#     NumGuesses += 1
+#     if(guessedNum == randValue):
+#         print("good job, " + nameText + ", You guessed my number in " + str(NumGuesses) + " guesses!")
+#         break
+#     elif(NumGuesses == 7):
+#         print("Nope. The number I was thinking of was " + str(NumGuesses) + ".")
+#         break
+#     elif(guessedNum < randValue):
+#         print("your guessed number is too low")
+#     elif(guessedNum > randValue):
+#         print("your guessed number is too high")
+#     else:
+#         print("this shouldn't happen")
+#         break
+
+# import random as r
+
+# goal = r.randint(0,21)
+# guesses = 6
 
 
+# print("start...")
 
+# while ( guesses > 0):
+#     print(str(guesses)+" guesses to find the number between 0 and 20: ",end='')
+#     try:
+#         userGuess = input()
+#         userGuessInt = int(userGuess)
+#     except ValueError:
+#         print("not a valid guess, try again")
+#         continue
+#     if userGuessInt == goal:
+#         print (" you won with " + str(guesses) + " left.")
+#         break
+#     elif userGuessInt > goal:
+#         print("too high")
+#     elif userGuessInt < goal:
+#         print("too low")
+#     else:
+#         print("um, what?")
+#     guesses -= 1
+
+# print("answer was " + str(goal))
+# print("end...")4
+
+# spam = [1, 2, 3, 4]
+# spam[3:3]  = [5, 6, 7, 8] 
+# del spam[5]
+# print(spam)
+# print(len(spam))
+
+# print(list('hello'))
+# if('text' in [1, 2, 3, 4, 5, 6, 'texty']):
+#     print("sweet")
+# else:
+#     print("not sweet")
