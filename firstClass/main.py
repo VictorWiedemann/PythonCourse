@@ -1,8 +1,8 @@
 import random
 import sys
 
-print ("hello world")
-print ('what is your name')
+# print ("hello world")
+# print ('what is your name')
 #myName = input()
 #if myName:
 #    print ('hello you')
@@ -52,10 +52,28 @@ print ('what is your name')
 
 
 
-def hello(text):
-    print("test", end='')
-    print('howdy! ' + text)
-    print ('world')
-    #hello() RECURSION HAR HAR HAR
+# def hello(text):
 
-hello("test")
+#     print(testText2)
+#     testText2 = "asdfasdf"
+#     #hello() RECURSION HAR HAR HAR fails at 999 loops
+
+
+# testText2 = "test222"
+# testText = "test"
+
+
+# hello(testText)
+# print(testText)
+# print(testText2)
+
+
+# def spam():
+#     print(eggs)
+
+
+# eggs = 42
+# spam()
+
+
+
