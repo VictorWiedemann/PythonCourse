@@ -168,4 +168,9 @@ import sys
 # if('text' in [1, 2, 3, 4, 5, 6, 'texty']):
 #     print("sweet")
 # else:
-#     print("not sweet")
+
+listhere = [0, 1, 2]
+for i in listhere:
+    if(i == 0):
+        listhere.append(1)
+    print(i)
